@@ -34,7 +34,7 @@ export default function Card_organism() {
 
           <div className="col-md-4">
             <img src={require('../../images/Image3.png')} alt="image" />
-            <Card text={<div class="title">Vestigingsplaats van kantoor</div>} 
+            <Card text={<div className="title">Vestigingsplaats van kantoor</div>} 
             subtext1= {<> 
               <div>Algemeen: <a href="#">+31 6 12 34 56 78</a></div>
               <div>Route: <a  href="#">Plan</a></div>

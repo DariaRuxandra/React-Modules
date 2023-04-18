@@ -7,21 +7,21 @@ import "bootstrap/js/src/collapse.js";
 export default function NavbarComp(){
     return(
         <>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Random</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <a className="navbar-brand" href="#">Random</a>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="/component1">Component 1 </a>
+        <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav">
+            <li className="nav-item active">
+                <a className="nav-link" href="/component1">Component 1 </a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/component2">Component 2</a>
+            <li className="nav-item">
+                <a className="nav-link" href="/component2">Component 2</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Component 3 (incoming)</a>
+            <li className="nav-item">
+                <a className="nav-link" href="#">Component 3 (incoming)</a>
             </li>
             </ul>
         </div>
