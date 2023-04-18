@@ -8,17 +8,17 @@ export default function Card(props) {
           <div className="image">
           {props.image}
           </div>
-          <div class="title">
+          <div className="title">
             {props.text}
           </div>
           {props.subtext1 ? (
-                        <div>
+                        <div className="subtext1">
                         {props.subtext1}
                       </div>
           ) : ''}
 
             {props.subtext2 ? (
-              <div>
+              <div className="subtext2">
               {props.subtext2}
             </div>
             ) : ''}

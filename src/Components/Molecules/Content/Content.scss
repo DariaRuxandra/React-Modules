@@ -1,0 +1,37 @@
+
+.content-container{
+    font-family: Roboto,sans-serif;
+
+    .quote{
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 42.19px;
+        padding-bottom: 80px;
+    }
+
+    .name{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21.09px;
+    }
+
+    .function{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21.09px;
+    }
+
+    .button{
+        // width: 229px;
+        height: 54px;
+        width: fit-content;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21.09px;
+        border:3px solid #000;
+        border-radius: 35px;
+        padding: 16px 68px 17px 28px;
+        margin-top: 21px;
+        cursor: pointer;
+    }
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import './Media.scss'
 
 export default function Media(props) {
   return (

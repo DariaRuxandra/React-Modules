@@ -1,9 +1,10 @@
 import React from 'react'
+import './Content.scss'
 
 
 export default function Content(props) {
   return (
-    <div className='content-container'>
+    <div className="content-container">
         <div className="quote">{props.quote}</div>
         <div className="name">{props.name}</div>
         <div className="function">{props.function}</div>
