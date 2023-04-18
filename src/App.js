@@ -1,6 +1,4 @@
-// import logo from './logo.svg';
 import './App.css';
-// import Card_organism from './Components/Organisms/Card-organism';
 import './global.scss'
 import Media_and_content from './Components/Organisms/Media-and-content/Media-and-content'
 import Content from './Components/Molecules/Content/Content';
@@ -22,7 +20,7 @@ function App() {
 
     switch(window.location.pathname){
       case "/":
-        component = <App/>
+        component = <Component1 />
         break
         case"/component1":
         component = <Component1 />
@@ -38,7 +36,7 @@ function App() {
         <Navbar/>
         {component}
       </>
-    );
+     );
     
     // return(
     //   <>
