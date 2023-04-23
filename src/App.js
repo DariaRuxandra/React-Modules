@@ -6,6 +6,7 @@ import './Components/Molecules/Media/Media.scss'
 import Navbar from './Navbar/NavbarComp'
 import Component1 from './Navbar/Pages/Component1'
 import Component2 from './Navbar/Pages/Component2'
+import Component3 from './Navbar/Pages/Component3'
 
 function App() {
 
@@ -24,6 +25,9 @@ function App() {
         break
         case"/component2":
         component = <Component2 />
+        break
+        case"/component3":
+        component = <Component3 />
         break   
     }
    
