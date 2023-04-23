@@ -1,9 +1,9 @@
 import React from 'react'
 import './Card.scss';
+import ArrowIcon from '../../../images/Arrow.svg'
 
 export default function Card(props) {
   return (
-    <>
         <div className="card">
           <div className="image">
           {props.image}
@@ -22,8 +22,12 @@ export default function Card(props) {
               {props.subtext2}
             </div>
             ) : ''}
-            
-        </div>
-    </>
+
+         
+          {/* <div className="button">
+            {props.button}
+            <i class="fa-solid fa-arrow-right" 
+        </div> */}
+    </div>
   )
 }
