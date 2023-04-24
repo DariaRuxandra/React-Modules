@@ -24,10 +24,10 @@ export default function Card(props) {
             ) : ''}
 
          
-          {/* <div className="button">
+          <div className="button">
             {props.button}
-            <i class="fa-solid fa-arrow-right" 
-        </div> */}
+            <i class="fa-solid fa-arrow-right"/> 
+        </div>
     </div>
   )
 }

@@ -43,8 +43,7 @@ export default function Card_organism() {
             <Card text={<div className="title">Vestigingsplaats van kantoor</div>} 
             subtext1= {<> 
               <div>Algemeen: <a href="#">+31 6 12 34 56 78</a></div>
-              <div>Route: <a  href="#">Plan</a></div>
-              
+              <div>Route: <a  href="#">Plan</a></div>  
           </>} 
           button ={ <a href="#">Meer informatie </a>}
           />  

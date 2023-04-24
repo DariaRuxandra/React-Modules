@@ -1,18 +1,9 @@
 
-
-// .accordion-container{
-//     display: flex;
-//     height: 100vh;
-//     width: 100vw;
-//     justify-content:center;
-//     align-items:center;
-// }
-
 .accordion-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    // align-items: center;
+    width: 660px;
 
     .item{
         margin-bottom: 31.45px;
@@ -32,14 +23,19 @@
         .content{
             max-height: 0;
             overflow: hidden;
-            transition: all 0.5s cubic-bezier(0,1,0,1);
+            // transition: all 0.5s cubic-bezier(0,1,0,1);
+            transition: .5s;
+            // -webkit-transition: height 400ms ease;
+            // transition: height 400ms ease-in-out;
         }
 
         .content.show{
             height: auto;
             max-height:  9999px;
-            transition:  all 0.5s cubic-bezier(1,0,1,0);
+            // transition:  all 0.5s cubic-bezier(1,0,1,0);
+            transition: .5s;
             margin-bottom: 46.55px;
+
         }
 
     }

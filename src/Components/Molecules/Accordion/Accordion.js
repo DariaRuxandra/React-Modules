@@ -19,13 +19,13 @@ export default function Accordion(props) {
       {data.map((item, i) => (
         <div className="item">
           <div className="accordion-header" onClick ={ () => toggle(i)}>
-              {props.header}
+              {item.header}
               <span>{selected === i ? "-" : "+"}</span>
           </div>
           <div className={selected === i ? "content show" : "content"} >
-              {props.text}
+              {item.text}
           </div>
-          </div>
+        </div>
       ))}
     </div>
 )
@@ -35,22 +35,18 @@ export default function Accordion(props) {
 const data = [
   {
     header: "Lorem ipsum",
-    text: "Ceva text aici"
+    text: "Mauris lacinia ante fringilla, porttitor tellus vitae, lorem ipsum dolor ipsum ante lorem laoreet. Laoreet vel neqe non, cursus pretium lorem ipsum dolor sit amet consect. Mauris lacinia ante fringilla, tellus vitae."
   },
   {
-    header: "Dolor sit amet",
-    text: "Ceva text aici2"
-  },
-  {
-    header: "Lorem ipsum",
-    text: "Ceva text aici3"
+    header: "Dolor sit amet consectetur",
+    text: "Mauris lacinia ante fringilla, porttitor tellus vitae, lorem ipsum dolor ipsum ante lorem laoreet. Laoreet vel neqe non, cursus pretium lorem ipsum dolor sit amet consect. Mauris lacinia ante fringilla, tellus vitae."
   },
   {
     header: "Laoreet vel neque  consectetur non olor sit",
-    text: "Ceva text aici4"
+    text: "Mauris lacinia ante fringilla, porttitor tellus vitae, lorem ipsum dolor ipsum ante lorem laoreet. Laoreet vel neqe non, cursus pretium lorem ipsum dolor sit amet consect. Mauris lacinia ante fringilla, tellus vitae."
   },
   {
     header: "Cursus pretium dolor",
-    text: "Ceva text aici5"
+    text: "Mauris lacinia ante fringilla, porttitor tellus vitae, lorem ipsum dolor ipsum ante lorem laoreet. Laoreet vel neqe non, cursus pretium lorem ipsum dolor sit amet consect. Mauris lacinia ante fringilla, tellus vitae."
   }
 ]
