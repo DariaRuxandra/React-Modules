@@ -7,6 +7,7 @@ import Navbar from './Navbar/NavbarComp'
 import Component1 from './Navbar/Pages/Component1'
 import Component2 from './Navbar/Pages/Component2'
 import Component3 from './Navbar/Pages/Component3'
+import Component4 from './Navbar/Pages/Component4';
 
 function App() {
 
@@ -28,6 +29,9 @@ function App() {
         break
         case"/component3":
         component = <Component3 />
+        break  
+        case"/component4":
+        component = <Component4 />
         break   
     }
    

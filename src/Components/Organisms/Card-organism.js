@@ -15,7 +15,6 @@ export default function Card_organism() {
             <Card 
             image={
                <img src={require('../../images/Image1.png')}  alt="image" />
-
             }
             text="Vestigingsplaats van kantoor" 
             subtext1= {<> 

@@ -2,12 +2,14 @@
     border: none !important;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+
     gap: 16px;
+
     .image{
         position: relative;
         max-width:100%;
         object-fit: cover;
-        
     }
     
     .title {

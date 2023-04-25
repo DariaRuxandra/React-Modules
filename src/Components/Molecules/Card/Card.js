@@ -26,7 +26,7 @@ export default function Card(props) {
          
           <div className="button">
             {props.button}
-            <i class="fa-solid fa-arrow-right"/> 
+            {/* <i class="fa-solid fa-arrow-right"/>  */}
         </div>
     </div>
   )
