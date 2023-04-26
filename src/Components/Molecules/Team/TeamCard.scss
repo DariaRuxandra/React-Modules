@@ -1,0 +1,44 @@
+
+.team-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #F6F5F4;
+    border-radius: 8px;
+    border:1px solid red;
+    height: 353px;
+
+    .content-container{
+        padding: 40px 24px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+        .position{
+            margin-bottom: 59px;
+            text-align: center;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 31.2px;
+            // padding-top:  40px;
+            // padding-left: 24px;
+            // padding-right: 24px;
+        }
+    
+        .image{
+            margin-bottom: 16px;
+            border-radius: 50%;
+        }
+
+        .name{
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 18.2px;
+            
+        }
+
+}

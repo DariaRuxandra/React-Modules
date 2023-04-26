@@ -1,0 +1,11 @@
+
+.teamCard-organism{
+    display: flex;
+    flex-direction: column;
+    gap : 40px;
+
+    .row{
+        row-gap: 24px;
+    }
+
+}
