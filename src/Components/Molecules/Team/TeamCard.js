@@ -15,6 +15,13 @@ export default function TeamCard(props) {
               {props.name}
           </div>
         </div>
+        <div className="content-container-flipped">
+          <div className="flipped-name">{props.flippedName}</div>
+          <div className="flipped-description">{props.flippedDescription}</div>
+          <div className="social-icons">
+            {props.socialIcon}
+          </div>
+        </div>
       </div>
   )
 }

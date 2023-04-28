@@ -1,4 +1,3 @@
-
 .team-card{
     display: flex;
     flex-direction: column;
@@ -6,8 +5,12 @@
     align-items: center;
     background: #F6F5F4;
     border-radius: 8px;
-    border:1px solid red;
-    height: 353px;
+    min-height: 353px;
+    height: 100%;
+
+    .content-container-flipped{
+        display: none;
+    }
 
     .content-container{
         padding: 40px 24px;
@@ -39,6 +42,37 @@
             font-size: 14px;
             line-height: 18.2px;
             
+        }
+
+
+
+        // !flipped
+        &:hover{
+            .content-container{
+                display: none;
+            }
+            .content-container-flipped{
+                padding: 30px 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                background: url('../../../images/gradient-flipped.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                z-index: 0;
+                overflow: hidden;
+
+                .flipped-name{
+                    margin-bottom: 24px;
+                }
+
+                .flipped-description{
+                    margin-bottom: 8px;
+                }
+            }
         }
 
 }
