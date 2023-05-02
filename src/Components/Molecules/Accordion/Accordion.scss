@@ -24,16 +24,16 @@
             max-height: 0;
             overflow: hidden;
             // transition: all 0.5s cubic-bezier(0,1,0,1);
-            transition: .5s;
+            // transition: .5s;
             // -webkit-transition: height 400ms ease;
             // transition: height 400ms ease-in-out;
         }
 
         .content.show{
-            height: auto;
-            max-height:  9999px;
+            max-height: 1000px;
+            // max-height:  9999px;
             // transition:  all 0.5s cubic-bezier(1,0,1,0);
-            transition: .5s;
+            // transition: .5s;
             margin-bottom: 46.55px;
 
         }
