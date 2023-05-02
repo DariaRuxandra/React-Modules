@@ -12,7 +12,9 @@ export default function Header(props) {
             {props.title}
         </div>
         <div className="button">
+            <Toggle black/>
             <Toggle/>
+            
         </div>
     </div>
   )

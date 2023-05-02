@@ -1,6 +1,7 @@
 .card{
     border: none !important;
     display: flex;
+    height: 100%;
     flex-direction: column;
     justify-content: center;
 
@@ -43,8 +44,12 @@
         font-weight: 700;
         font-size: 18px;
         line-height: 28.8px;
+    }
 
-        
+    .divider{
+        height: 2px;
+        width: 100%;
+        background-color: #C8D3D9;
     }
 }
 

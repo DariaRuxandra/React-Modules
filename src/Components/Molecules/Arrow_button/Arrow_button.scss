@@ -1,0 +1,51 @@
+.arrow-button{
+    :nth-child(n + 1 ){
+        margin-top: 10px;
+    }
+    a{
+        color: #0093A7!important;
+        display: flex;
+        align-items: center;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.6!important;
+        text-decoration: none;
+
+
+        &::after{
+            content: '';
+            width: 16px;
+            height: 16px;
+            margin-left: 10px;
+            background: url('../../../images/Arrow-new.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            transition: all 0.3s;
+        }
+
+        &:hover::after{
+            margin-left: 20px;
+        }
+
+    }
+
+    p{
+        color: #3C3C3B!important;
+        display: flex;
+        align-items: center;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.6!important;
+        margin-bottom: 0!important;
+
+        &:hover::after{
+            margin-left: 20px;
+        }
+
+    }
+}

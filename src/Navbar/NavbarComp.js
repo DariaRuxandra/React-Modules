@@ -13,7 +13,7 @@ function NavbarComp() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/component1">Component1</Nav.Link>
-            <Nav.Link href="/component2">Component2(working on it)</Nav.Link>
+            <Nav.Link href="/component2">Component2</Nav.Link>
             <Nav.Link href="/component3">Component3</Nav.Link>
             <Nav.Link href="/component4">Component4</Nav.Link>
             <Nav.Link href="/component5">Component5</Nav.Link>
