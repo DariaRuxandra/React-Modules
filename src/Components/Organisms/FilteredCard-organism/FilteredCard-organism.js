@@ -8,16 +8,16 @@ export default function FilteredCard_organism() {
     <div className="filteredCard-organism">
       <div className="container">   {/* a row */}
         <div className="row">
-          <div className="col-md-3">
+          <div className="col-6 col-xs-4 col-md-3">
             <FilteredCard
             image={
-              <img src={require('../../../images/walmart.png')}  alt="image" />
+              <img src={require('../../../images/walmart.png')}  alt="image123" />
             }
             field = "DIGITAL GOODS"
             text = "Providing customers with a smooth payment experience at Walmart."/>
           </div>
 
-          <div className="col-md-3">
+          <div className="col-6 col-xs-4 col-md-3">
             <FilteredCard
             image={
               <img src={require('../../../images/airbnb.png')}  alt="image" />
@@ -26,7 +26,7 @@ export default function FilteredCard_organism() {
             text = "How Airbnb dapibus interdum timing for your users recipients bank account."/>
           </div>
 
-          <div className="col-md-3">
+          <div className="col-6 col-xs-4 col-md-3">
             <FilteredCard
             image={
               <img src={require('../../../images/amazon.png')}  alt="image" />
@@ -35,7 +35,7 @@ export default function FilteredCard_organism() {
             text = "Providing customers with a smooth payment experience at Amazon."/>
           </div>
 
-          <div className="col-md-3">
+          <div className="col-6 col-xs-4 col-md-3">
             <FilteredCard
             image={
               <img src={require('../../../images/microsoft.png')}  alt="image" />
@@ -57,7 +57,7 @@ export default function FilteredCard_organism() {
             text = "Providing customers with a smooth payment experience at account information service pricing models tempus risus orci in mollis lobortis."/>
           </div>
 
-          <div className="col-md-3">
+          <div className="col-6 col-xs-4 col-md-3">
             <FilteredCard
             image={
               <img src={require('../../../images/microsoft-dark.png')}  alt="image" />
@@ -66,7 +66,7 @@ export default function FilteredCard_organism() {
             text = "Microsoft account information service tempus risus orci in mollis lobortis."/>
           </div>
 
-          <div className="col-md-3">
+          <div className="col-6 col-xs-4 col-md-3">
             <FilteredCard
             image={
               <img src={require('../../../images/amazon.png')}  alt="image" />
@@ -82,7 +82,7 @@ export default function FilteredCard_organism() {
 
       <div className="container">   {/* a row */}
         <div className="row">
-          <div className="col-md-3">
+          <div className="col-6 col-xs-4 col-md-3">
             <FilteredCard
             image={
               <img src={require('../../../images/walmart.png')}  alt="image" />
@@ -91,7 +91,7 @@ export default function FilteredCard_organism() {
             text = "Providing customers with a smooth payment experience at Walmart."/>
           </div>
 
-          <div className="col-md-3">
+          <div className="col-6 col-xs-4 col-md-3">
             <FilteredCard
             image={
               <img src={require('../../../images/airbnb.png')}  alt="image" />
@@ -100,7 +100,7 @@ export default function FilteredCard_organism() {
             text = "How Airbnb dapibus interdum timing for your users recipients bank account."/>
           </div>
 
-          <div className="col-md-3">
+          <div className="col-6 col-xs-4 col-md-3">
             <FilteredCard
             image={
               <img src={require('../../../images/amazon.png')}  alt="image" />
@@ -109,7 +109,7 @@ export default function FilteredCard_organism() {
             text = "Providing customers with a smooth payment experience at Amazon."/>
           </div>
 
-          <div className="col-md-3">
+          <div className="col-6 col-xs-4 col-md-3">
             <FilteredCard
             image={
               <img src={require('../../../images/microsoft.png')}  alt="image" />
